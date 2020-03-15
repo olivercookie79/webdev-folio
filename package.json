@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "webpfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivercookie79/webdev-folio.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "ocook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olivercookie79/webdev-folio/issues"
+  },
+  "homepage": "https://github.com/olivercookie79/webdev-folio#readme"
+}

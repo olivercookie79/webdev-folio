@@ -1,14 +1,26 @@
 
 
-body { font-size: large, background-color: coral; }
+body { f }
 
 
+#github{
+  display: block;
+  /* margin-right: 100% */
+  padding-top: 20px;
+  margin-left: 10px;
+
+}
+
+#linkedin{
+
+position: relative;
+top: -65px;
+/* left: 00px; */
+right: -85px;
+  /* float:right; */
 
 
-div.a{ font-size: 22px; text-align: center;
-font-family: 'Audiowide', sans-serif; color: white }
-
-
+}
 div.b{
 text-align: center };
 
@@ -16,7 +28,7 @@ text-align: center };
 canvas { width: 80%; height: 80%;outline: 5px darkgray;}
 
 #content{
-text-align: justify;
+text-align: center;
 max-width:800px;
 margin: auto;
 
@@ -25,57 +37,79 @@ font-family: 'Chakra Petch', sans-serif;
 font-size: 29px;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
 div.c {
-position: absolute;
+position:relative;
 text-align: center;
 /* font-family: 'Kanit', sans-serif; */
 font-family: 'Kanit', sans-serif;
 color: white;
-z-index: 999;
+z-index: 100;
 text-shadow: 0px 1px 7px rgba(02, 2, 2, 1);
 margin: 0 auto;
 left: 0;
 right: 0;
-top: 60%;
+top: 70%;
 style: bold;
 font-style: italic;
 font-size: 120px;
-letter-spacing: -2px;
+/* letter-spacing: -2px; */
 };
 
 
 
 
 
-#Portfolio {
-  text-align: justify;
-  max-width:700px;
-  margin: auto;
-  color: white;
-  font-family: 'Chakra Petch', sans-serif;
-  font-size: 29px;
-}
-
-
-#Group {
+#Portfolios {
   font-family: 'Orbitron', sans-serif;
   text-align:center;
   max-width:500px;
   margin: auto;
+  font-size: 29px;
+  color: white;
+}
+
+
+#Text{
+
+  font-family: 'Orbitron', sans-serif;
+  text-align:justify;
+  max-width:700px;
+  margin: auto;
+  font-size: 18px;
+  color: white;
+
+}
+
+#Group {
+  font-family: 'Orbitron', sans-serif;
+  text-align:center;
+  max-width:700px;
+  margin: auto;
+  font-size: 29px;
+  color: white;
+
 }
 
 #firstP {
   font-family: 'Orbitron', sans-serif;
   text-align:center;
-  max-width:500px;
+  max-width:700px;
   margin: auto;
+  font-size: 29px;
+  color: white;
 }
 
 
 #tictactoe {
   font-family: 'Orbitron', sans-serif;
   text-align:center;
-  max-width:500px;
+  max-width:700px;
   margin: auto;
 }
 

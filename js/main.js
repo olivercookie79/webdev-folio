@@ -6,7 +6,7 @@ renderer.shadowMap.enabled = true;
 // renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
 const  camera = new THREE.PerspectiveCamera(50, 2, 1, 1000);
-camera.position.z = 13;
+camera.position.z = 11;
 // camera.autoRotate: true;
 // mouseControls.enableZoom: false;
 const mouseControls = new THREE.OrbitControls(
@@ -14,7 +14,7 @@ const mouseControls = new THREE.OrbitControls(
     mouseControls.enableDamping = true;
     mouseControls.screenSpacePanning = false;
     mouseControls.minDistance = 0;
-    mouseControls.maxDistance = 100;
+    mouseControls.maxDistance = 110;
     mouseControls.autoRotate = 100;
     mouseControls.enableZoom = false;
 
